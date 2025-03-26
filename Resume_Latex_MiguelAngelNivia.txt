@@ -4,7 +4,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper, 11pt]{article}
+\documentclass[letterpaper, 10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -94,38 +94,37 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{{\Large Miguel Angel Nivia Ortega}} & Email: \href{mailto:miguelangelnivia@gmail.com}{miguelangelnivia@gmail.co}\\
-  System and Computer Engineering Student & Mobile: {315-645-0801} \\
+  System and Computer Engineering Student & Mobile: {315-645-0801} \\ \href{www.linkedin.com/in/miguelangel-niviaortega}{LinkedIn}
 \end{tabular*}
 
 %-----------PROFILE-----------------
 \section{Profile}
     \begin{justify}
-    Hi, I am a System and Computer Engineering intern. Throughout my education, I have developed valuable skills in project development and problem solving, focusing on teamwork, effective communication, and collaboration. I can easily adapt to different work environments while maintaining a professional and proactive approach. 
-    In addition, I have learned and applied multiple programming languages and technological tools that enhance my ability to innovate. I enjoy coding and tackling new challenges, where I have implemented agile methodologies such as Scrum, XP, and others to optimize development and project management.
+    Hi, I am a System and Computer Engineering intern. Throughout my education, I have developed valuable skills in project development and problem solving, focusing on teamwork, effective communication, and collaboration. I can easily adapt to different work environments while maintaining a professional and proactive approach. In addition, I have learned and applied multiple programming languages and technological tools that enhance my ability to innovate. I enjoy coding and tackling new challenges, where I have implemented agile methodologies such as Scrum, XP, and others to optimize development and project management.
     \end{justify}
 
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
+      {Mis Años Maravillosos}{Buga, Colombia}
+      {Primary school - Basic education; GPA: 4.8/5}{Sept 2010 -- Jun 2014}
+    \resumeSubheading
       {Liceo De Los Andes FUNED}{Buga, Colombia}
-      {High school - Secondary education; GPA: 4.6/5}{Jan 2015 -- Dec 2020}
+      {High school - Secondary education; GPA: 4.6/5}{Sept 2014 -- Jul 2020}
     \resumeSubheading
       {Pontificia Javeriana Cali}{Cali, Colombia}
-      {Undergraduate degree in systems and computer engineering; GPA: 4.44/5}{Aug 2021 -- present}
+      {Undergraduate degree in systems and computer engineering; GPA: 4.44/5}{Jan 2021 -- present}
   \resumeSubHeadingListEnd
-
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
-
     \resumeSubheading
       {Fundación Casa Colombia}{Cali, Colombia}
-      {\textbf{Web development}}{Aug 2024 -- Dec 2025}
+      {\textbf{Web development Thesis}}{Aug 2024 -- Dec 2025}
       
       {Development of a web system for the foundation's preventive campaigns, enabling the registration of children, management of medical glasses, and report generation using Excel, JavaScript, and Node.js.}
-
   \resumeSubheading
       {Instituto de niños ciegos y sordos}{Cali, Colombia}
       {\textbf{Video game development}}{Jun 2025 -- present}
@@ -135,25 +134,31 @@
   
 %-----------ACADEMIC EXPERIENCE-----------------
 \section{Academic Experience}
+    \resumeSubHeadingListStart
+        \resumeSubItem{2024}
+          {Workshop "Work Equipment" training for addressing related topics in practice and professional life.}
+        \resumeSubItem{2023 -- 2025}
+          {Emphasis on the systems and computer engineering program focused on video game, animation, and audio development.}
+        \resumeSubItem{2023 -- 2025}
+          {Complementary to the systems and computer engineering program, it focuses on database management using tools such as SQL, MySQL, MongoDB, and PostgreSQL, and on tools such as AWS.}      
+    \resumeSubHeadingListEnd
 
-  \resumeSubHeadingListStart
-    \resumeSubItem{2021}
-      {Obtaining a DOMESTIKA certificate on 2D video game development in Unity.}
-    \resumeSubItem{2020 -- 2025}
-      {Winner of Special Magis Scholarship.}
-    \resumeSubItem{2023}
-      {Winner of the Javeriana logo contest for systems and computer engineering.}
-    \resumeSubItem{2024}
-      {Winner of recognition for successfully passing the algorithm analysis and design subject.}
-    \resumeSubItem{2024}
-      {Workshop "Work Equipment" training for addressing related topics in practice and professional life.}
-  \resumeSubHeadingListEnd
+%-----------ACHIEVEMENTS AND RECOGNITIONS-----------------
+\section{Achievements And Recognitions}
+    \resumeSubHeadingListStart
+        \resumeSubItem{2021 -- present}
+          {Winner of Special Magis Scholarship.}
+        \resumeSubItem{2023}
+          {Winner of the Javeriana logo contest for systems and computer engineering.}
+        \resumeSubItem{2024}
+          {Winner of recognition for successfully passing the algorithm analysis and design subject.}
+    \resumeSubHeadingListEnd
 
 %-----------LANGUAGES-----------------
 \section{Languages}
     \resumeSubHeadingListStart
         \resumeSubItem{Spanish}{Native}
-        \resumeSubItem{Englih}{B1/B2}
+        \resumeSubItem{Englih}{B2}
     \resumeSubHeadingListEnd
 
 %--------SKILLS------------
@@ -163,10 +168,10 @@
             \textbf{Personal}{: Collaboration, effective communication, leadership, teamwork, organization, persuasion, and planning.}
         }
         \item{
-            \textbf{Languages}{: Python, C\#, C++, JavaScript, C++, SQL, R, HTML, CSS.}
+            \textbf{Languages}{: Python(Advanced), C\#(Advanced), C++(Intermediate), C++(Intermediate), JavaScript(Basic), SQL(Intermediate), R(Intermediate), HTML(Intermediate), CSS(Intermediate), Excel(Intermediate), Word(Intermediate).}
         }
         \item {
-            \textbf{Technologies}{: GIT, Latex, ChatGPT, VSCode, Google Colab.}
+            \textbf{Technologies}{: GIT, Latex, ChatGPT, VSCode, Google Colab, Unity, AWS.}
         }
     \resumeSubHeadingListEnd
 
