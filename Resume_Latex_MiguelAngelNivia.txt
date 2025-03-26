@@ -121,7 +121,7 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Casa Colombia}{Cali, Colombia}
+      {Fundación Casa Colombia}{Cali, Colombia}
       {\textbf{Web development}}{Aug 2024 -- Dec 2025}
       
       {Development of a web system for the foundation's preventive campaigns, enabling the registration of children, management of medical glasses, and report generation using Excel, JavaScript, and Node.js.}
