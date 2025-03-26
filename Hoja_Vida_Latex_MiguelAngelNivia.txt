@@ -121,7 +121,7 @@ Además, he aprendido y aplicado diversos lenguajes de programación y herramien
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Casa Colombia}{Cali, Colombia}
+      {Fundación Casa Colombia}{Cali, Colombia}
       {\textbf{Desarrollo Web}}{Ago 2024 -- Dic 2025}
       
       {Desarrollo de un sistema web para las campañas preventivas de la fundación, permitiendo el registro de niños, gestión de lentes médicos y generación de reportes utilizando Excel, JavaScript y Node.js.}
