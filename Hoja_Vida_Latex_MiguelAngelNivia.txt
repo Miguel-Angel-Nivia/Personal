@@ -94,7 +94,7 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{{\Large Miguel Angel Nivia Ortega}} & Email: \href{mailto:miguelangelnivia@gmail.com}{miguelangelnivia@gmail.co}\\
-  Estudiante de Ingeniería de Sistemas y Computación & Celular: {315-645-0801} \\ \href{www.linkedin.com/in/miguelangel-niviaortega}{LinkedIn}
+  Estudiante de Ingeniería de Sistemas y Computación & Celular: {315-645-0801} \\ \href{https://www.linkedin.com/in/miguelangel-niviaortega}{LinkedIn}
 \end{tabular*}
 
 %-----------PROFILE-----------------
