@@ -122,12 +122,12 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Fundación Casa Colombia}{Cali, Colombia}
-      {\textbf{Web development Thesis}}{Aug 2024 -- Dec 2025}
+      {\textbf{Web development}}{Aug 2024 -- Dec 2025}
       
       {Development of a web system for the foundation's preventive campaigns, enabling the registration of children, management of medical glasses, and report generation using Excel, JavaScript, and Node.js.}
   \resumeSubheading
       {Instituto de niños ciegos y sordos}{Cali, Colombia}
-      {\textbf{Video game development}}{Jun 2025 -- present}
+      {\textbf{Video game development thesis}}{Jun 2025 -- present}
       
       {Development of an augmented reality video game for children aged 6 to 9, designed to assist professionals in the early detection of visuomotor coordination issues. Implemented in Unity 6 and programmed in C\#}
   \resumeSubHeadingListEnd
