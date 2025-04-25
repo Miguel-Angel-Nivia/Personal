@@ -168,7 +168,7 @@
             \textbf{Personal}{: Collaboration, effective communication, leadership, teamwork, organization, persuasion, and planning.}
         }
         \item{
-            \textbf{Languages}{: Python(Advanced), C\#(Advanced), C++(Intermediate), C++(Intermediate), JavaScript(Basic), SQL(Intermediate), R(Intermediate), HTML(Intermediate), CSS(Intermediate), Excel(Intermediate), Word(Intermediate).}
+            \textbf{Languages}{: Python(Advanced), C\#(Advanced), C++(Intermediate), C(Intermediate), JavaScript(Basic), SQL(Intermediate), R(Intermediate), HTML(Intermediate), CSS(Intermediate), Excel(Intermediate), Word(Intermediate).}
         }
         \item {
             \textbf{Technologies}{: GIT, Latex, ChatGPT, VSCode, Google Colab, Unity, AWS.}
