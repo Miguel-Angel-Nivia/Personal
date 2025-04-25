@@ -168,7 +168,7 @@ Hola, soy practicante de Ingeniería de Sistemas y computación. A lo largo de m
             \textbf{Personal}{: Collaboration, effective communication, leadership, teamwork, organization, persuasion, planning and order, commitment, and attention to detail.}
         }
         \item{
-            \textbf{Lenguajes}{: Python(Avanzado), C\#(Avanzado), C++(Intermedio), C++(Intermedio), JavaScript(Básico), SQL(Intermedio), R(Intermedio), HTML(Intermedio), CSS(Intermedio), Excel(Intermedio), Word(Intermedio).}
+            \textbf{Lenguajes}{: Python(Avanzado), C\#(Avanzado), C++(Intermedio), C(Intermedio), JavaScript(Básico), SQL(Intermedio), R(Intermedio), HTML(Intermedio), CSS(Intermedio), Excel(Intermedio), Word(Intermedio).}
         }
         \item {
             \textbf{Tecnologías}{: GIT, Latex, ChatGPT, VSCode, Google Colab, Unity, AWS.}
