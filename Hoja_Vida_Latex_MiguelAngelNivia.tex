@@ -1,0 +1,180 @@
+%-------------------------
+% Resume in LateX
+% Author : Miguel Angel Nivia Ortega
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper, 10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Miguel Angel Nivia Ortega}} & Email: \href{mailto:miguelangelnivia@gmail.com}{miguelangelnivia@gmail.co}\\
+  Estudiante de Ingeniería de Sistemas y Computación & Celular: {315-645-0801} \\ \href{https://www.linkedin.com/in/miguelangel-niviaortega}{LinkedIn}
+\end{tabular*}
+
+%-----------PROFILE-----------------
+\section{Perfil}
+\begin{justify}
+Hola, soy practicante de Ingeniería de Sistemas y computación. A lo largo de mi formación, he desarrollado valiosas habilidades en el desarrollo de proyectos y la resolución de problemas, centrándome en el trabajo en equipo, la comunicación efectiva y la colaboración, donde me adapto fácilmente a diferentes entornos de trabajo, manteniendo un enfoque profesional y proactivo. Además, he aprendido y aplicado diversos lenguajes de programación y herramientas tecnológicas que potencian mi capacidad de innovación. Disfruto programando y afrontando nuevos retos, implementando metodologías ágiles como Scrum, XP, entre otras para optimizar el desarrollo y la gestión de proyectos.
+\end{justify}
+
+%-----------EDUCATION-----------------
+\section{Educación}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Mis Años Maravillosos}{Buga, Colombia}
+      {Escuela Primaria - Educación Basica; GPA: 4.8/5}{Sept 2010 -- Jun 2014 }
+    \resumeSubheading
+      {Liceo De Los Andes FUNED}{Buga, Colombia}
+      {Bachillerato - Educación Secundaria; GPA: 4.6/5}{Sept 2014 -- Jul 2020}
+    \resumeSubheading
+      {Pontificia Javeriana Cali}{Cali, Colombia}
+      {Pregrado de ingenieria de sistemas y computacion; GPA: 4.44/5}{Ene 2021 -- presente}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experiencia}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Casa Colombia}{Cali, Colombia}
+      {\textbf{Desarrollo Web}}{Ago 2024 -- Dic 2025}
+      
+      {Desarrollo de un sistema web para las campañas preventivas de la fundación, permitiendo el registro de niños, gestión de lentes médicos y generación de reportes utilizando Excel, JavaScript y Node.js.}
+    \resumeSubheading
+      {Instituto de niños ciegos y sordos}{Cali, Colombia}
+      {\textbf{Tesis de Desarrollo de videojuego}}{Jun 2025 -- present}
+      
+      {Desarrollo de un videojuego de realidad aumentada para niños de 6 a 9 años, diseñado para ayudar a los profesionales en la detección temprana de problemas de coordinación visomotora. Implementado en Unity 6 y programado en C\#.}
+  \resumeSubHeadingListEnd
+  
+%-----------ACADEMIC EXPERIENCE-----------------
+\section{Experiencia Academica}
+  \resumeSubHeadingListStart
+    \resumeSubItem{2024}
+      {Taller “Equipamiento del trabajo” sobre la capacitación para el abordaje de temas relacionados en la práctica y vida profesional.}
+    \resumeSubItem{2023 -- 2025}
+      {Énfasis de la carrera de ingeniería de sistemas y computación enfocada en el desarrollo de videojuegos, animación y audio.}
+    \resumeSubItem{2023 -- 2025}
+      {Complementaria de la carrera de ingeniería de sistemas y computación, enfocada en el manejo de bases de datos con herramientas como SQL, MySQL, MongoDB y PostgreSQL, en herramientas como AWS.}     
+  \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS AND RECOGNITIONS-----------------
+\section{Logros y Reconocimientos}
+    \resumeSubHeadingListStart
+        \resumeSubItem{2021 -- presente}
+          {Ganador de la Beca Especial Magis.}
+        \resumeSubItem{2023}
+          {Ganador del concurso de logos de la Javeriana para ingeniería de sistemas y computación.}
+        \resumeSubItem{2024}
+          {Ganador del reconocimiento por aprobar exitosamente la asignatura de análisis y diseño de algoritmos.}
+    \resumeSubHeadingListEnd
+
+%-----------LANGUAGES-----------------
+\section{Idiomas}
+    \resumeSubHeadingListStart
+        \resumeSubItem{Español}{Nativo}
+        \resumeSubItem{Ingles}{B2}
+    \resumeSubHeadingListEnd
+
+%--------SKILLS------------
+\section{Habilidades}
+    \resumeSubHeadingListStart
+        \item {
+            \textbf{Personal}{: Collaboration, effective communication, leadership, teamwork, organization, persuasion, planning and order, commitment, and attention to detail.}
+        }
+        \item{
+            \textbf{Lenguajes}{: Python(Avanzado), C\#(Avanzado), C++(Intermedio), C(Intermedio), JavaScript(Básico), SQL(Intermedio), R(Intermedio), HTML(Intermedio), CSS(Intermedio), Excel(Intermedio), Word(Intermedio).}
+        }
+        \item {
+            \textbf{Tecnologías}{: GIT, Latex, ChatGPT, VSCode, Google Colab, Unity, AWS.}
+        }
+    \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
