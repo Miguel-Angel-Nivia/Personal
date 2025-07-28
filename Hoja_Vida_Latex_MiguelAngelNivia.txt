@@ -165,7 +165,7 @@ Hola, soy practicante de Ingeniería de Sistemas y computación. A lo largo de m
 \section{Habilidades}
     \resumeSubHeadingListStart
         \item {
-            \textbf{Personal}{: Collaboration, effective communication, leadership, teamwork, organization, persuasion, planning and order, commitment, and attention to detail.}
+            \textbf{Personal}{: Colaboración, comunicación efectiva, liderazgo, trabajo en equipo, organización, persuasión, planificación y orden, compromiso y atención al detalle.}
         }
         \item{
             \textbf{Lenguajes}{: Python(Avanzado), C\#(Avanzado), C++(Intermedio), C(Intermedio), JavaScript(Básico), SQL(Intermedio), R(Intermedio), HTML(Intermedio), CSS(Intermedio), Excel(Intermedio), Word(Intermedio).}
