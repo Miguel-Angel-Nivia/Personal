@@ -113,7 +113,7 @@ Soy ingeniero de sistemas y computación con sólidas habilidades en desarrollo 
 
     \resumeSubheading
       {Instituto de niños ciegos y sordos}{Cali, Colombia}
-      {\textbf{Tesis de Desarrollo de videojuego}}{Jun 2025 -- Sep 2025}
+      {\textbf{Tesis de Desarrollo de videojuego}}{Jun 2025 -- Sept 2025}
       {Desarrollo de un videojuego de realidad aumentada para niños de 6 a 9 años, diseñado para ayudar a los profesionales en la detección temprana de problemas de coordinación visomotora. Implementado en Unity 6 y programado en C\#.}
 
     \resumeSubheading

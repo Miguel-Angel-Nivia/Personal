@@ -113,7 +113,7 @@ I am a systems and computing engineer with solid skills in project development a
 
     \resumeSubheading
       {Institute for Blind and Deaf Children}{Cali, Colombia}
-      {\textbf{Video Game Development Thesis}}{Jun 2025 -- Sep 2025}
+      {\textbf{Video Game Development Thesis}}{Jun 2025 -- Sept 2025}
       {Development of an augmented reality video game for children ages 6 to 9, designed to help professionals in the early detection of visomotor coordination problems. Implemented in Unity 6 and programmed in C\#.}
 
     \resumeSubheading
