@@ -21,7 +21,7 @@
 \input{glyphtounicode}
 
 \pagestyle{fancy}
-\fancyhf{} % Clear all header and footer fields
+\fancyhf{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
@@ -44,7 +44,6 @@
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-% Ensure that generate PDF is machine readable/ATS parsable
 \pdfgentounicode=1
 
 %-------------------------
@@ -55,7 +54,6 @@
   }
 }
 
-% Just in case someone needs a heading that does not need to be in a list
 \newcommand{\resumeHeading}[4]{
     \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
@@ -68,7 +66,7 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{3pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
@@ -93,88 +91,93 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{{\Large Miguel Angel Nivia Ortega}} & Email: \href{mailto:miguelangelnivia@gmail.com}{miguelangelnivia@gmail.co}\\
-  System and Computer Engineering Student & Mobile: {315-645-0801} \\ \href{https://www.linkedin.com/in/miguelangel-niviaortega}{LinkedIn}
+  \textbf{{\Large Miguel Angel Nivia Ortega}} & Email: \href{mailto:miguelangelnivia@gmail.com}{miguelangelnivia@gmail.com}\\
+  Systems and Computing Engineering Student & Phone: {315-645-0801} \\
+  \href{https://www.linkedin.com/in/miguelangel-niviaortega}{LinkedIn} | \href{https://github.com/Miguel-Angel-Nivia}{GitHub}
 \end{tabular*}
 
 %-----------PROFILE-----------------
-\section{Profile}
-    \begin{justify}
-    Hi, I am a System and Computer Engineering intern. Throughout my education, I have developed valuable skills in project development and problem solving, focusing on teamwork, effective communication, and collaboration. I can easily adapt to different work environments while maintaining a professional and proactive approach. In addition, I have learned and applied multiple programming languages and technological tools that enhance my ability to innovate. I enjoy coding and tackling new challenges, where I have implemented agile methodologies such as Scrum, XP, and others to optimize development and project management.
-    \end{justify}
-
-%-----------EDUCATION-----------------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Mis Años Maravillosos}{Buga, Colombia}
-      {Primary school - Basic education; GPA: 4.8/5}{Sept 2010 -- Jun 2014}
-    \resumeSubheading
-      {Liceo De Los Andes FUNED}{Buga, Colombia}
-      {High school - Secondary education; GPA: 4.6/5}{Sept 2014 -- Jul 2020}
-    \resumeSubheading
-      {Pontificia Javeriana Cali}{Cali, Colombia}
-      {Undergraduate degree in systems and computer engineering; GPA: 4.44/5}{Jan 2021 -- present}
-  \resumeSubHeadingListEnd
+\section{Professional Summary}
+\begin{justify}
+I am a systems and computing engineer with solid skills in project development and problem-solving. My education focuses on teamwork, effective communication, and collaboration, adapting easily to different work environments with a professional and proactive approach. I have developed competencies in various programming languages and technological tools that enhance my innovation capacity. I enjoy programming and facing new challenges, implementing agile methodologies such as Scrum and XP to optimize development and project management.
+\end{justify}
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Fundación Casa Colombia}{Cali, Colombia}
-      {\textbf{Web development}}{Aug 2024 -- Dec 2025}
-      
-      {Development of a web system for the foundation's preventive campaigns, enabling the registration of children, management of medical glasses, and report generation using Excel, JavaScript, and Node.js.}
-  \resumeSubheading
-      {Instituto de niños ciegos y sordos}{Cali, Colombia}
-      {\textbf{Video game development thesis}}{Jun 2025 -- present}
-      
-      {Development of an augmented reality video game for children aged 6 to 9, designed to assist professionals in the early detection of visuomotor coordination issues. Implemented in Unity 6 and programmed in C\#}
-  \resumeSubHeadingListEnd
-  
-%-----------ACADEMIC EXPERIENCE-----------------
-\section{Academic Experience}
-    \resumeSubHeadingListStart
-        \resumeSubItem{2024}
-          {Workshop "Work Equipment" training for addressing related topics in practice and professional life.}
-        \resumeSubItem{2023 -- 2025}
-          {Emphasis on the systems and computer engineering program focused on video game, animation, and audio development.}
-        \resumeSubItem{2023 -- 2025}
-          {Complementary to the systems and computer engineering program, it focuses on database management using tools such as SQL, MySQL, MongoDB, and PostgreSQL, and on tools such as AWS.}      
-    \resumeSubHeadingListEnd
+      {Casa Colombia}{Cali, Colombia}
+      {\textbf{Web Development}}{Aug 2024 -- Dec 2024}
+      {Development of a web system for the foundation's preventive campaigns, enabling child registration, medical lens management, and report generation using Excel, JavaScript, and Node.js.}
+    \vspace{2pt}
 
-%-----------ACHIEVEMENTS AND RECOGNITIONS-----------------
-\section{Achievements And Recognitions}
+    \resumeSubheading
+      {Institute for Blind and Deaf Children}{Cali, Colombia}
+      {\textbf{Video Game Development Thesis}}{Jun 2025 -- Sep 2025}
+      {Development of an augmented reality video game for children ages 6 to 9, designed to help professionals in the early detection of visomotor coordination problems. Implemented in Unity 6 and programmed in C\#.}
+
+    \resumeSubheading
+      {Internship at S\&S IP/SNS}{Cali, Colombia}
+      {\textbf{Student Internship}}{Aug 2025 -- Feb 2026}
+      {Development of my student internship at S\&S IP/SNS, where I performed activities in various areas such as AI, Cybersecurity, and Programming, either individually or with a team.}
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Pontificia Javeriana Cali}{Cali, Colombia}
+      {Undergraduate degree in systems and computer engineering; GPA: 4.5/5}{Jan 2021 -- Apr 2026}
+    \resumeSubheading
+      {Liceo De Los Andes FUNED}{Buga, Colombia}
+      {High School - Secondary Education; GPA: 4.6/5}{Sept 2014 -- Jul 2020}
+    \resumeSubheading
+      {Mis Años Maravillosos}{Buga, Colombia}
+      {Elementary School - Primary Education; GPA: 4.8/5}{Sept 2010 -- Jun 2014}
+  \resumeSubHeadingListEnd
+
+%-----------ACADEMIC FORMATION-----------------
+\section{Academic Training and Specializations}
+  \resumeSubHeadingListStart
+    \resumeSubItem{2023 -- 2025}
+      {Emphasis track focused on video game development, animation, and audio.}
+    \resumeSubItem{2023 -- 2025}
+      {Complementary track focused on database management with tools such as SQL, MySQL, MongoDB, and PostgreSQL, and tools like AWS.}
+    \resumeSubItem{2024}
+      {Workshop ``Work Equipment'' on training for addressing topics related to professional practice and life.}
+  \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------------
+\section{Awards and Recognitions}
     \resumeSubHeadingListStart
-        \resumeSubItem{2021 -- present}
-          {Winner of Special Magis Scholarship.}
+        \resumeSubItem{2021 -- 2026}
+          {Recipient of the Special Magis Scholarship.}
         \resumeSubItem{2023}
-          {Winner of the Javeriana logo contest for systems and computer engineering.}
+          {Winner of the Javeriana logo competition for systems and computing engineering.}
         \resumeSubItem{2024}
-          {Winner of recognition for successfully passing the algorithm analysis and design subject.}
+          {Recognition award for successfully passing the algorithms analysis and design course.}
     \resumeSubHeadingListEnd
 
 %-----------LANGUAGES-----------------
 \section{Languages}
     \resumeSubHeadingListStart
         \resumeSubItem{Spanish}{Native}
-        \resumeSubItem{Englih}{B2}
+        \resumeSubItem{English}{B2}
     \resumeSubHeadingListEnd
 
 %--------SKILLS------------
 \section{Skills}
     \resumeSubHeadingListStart
-        \item {
-            \textbf{Personal}{: Collaboration, effective communication, leadership, teamwork, organization, persuasion, and planning.}
+        \item{
+            \textbf{Soft Skills}{: Collaboration, effective communication, leadership, teamwork, organization, persuasion, planning and order, commitment, and attention to detail.}
         }
         \item{
-            \textbf{Languages}{: Python(Advanced), C\#(Advanced), C++(Intermediate), C(Intermediate), JavaScript(Basic), SQL(Intermediate), R(Intermediate), HTML(Intermediate), CSS(Intermediate), Excel(Intermediate), Word(Intermediate).}
+            \textbf{Technical Skills}{: Python (Advanced), C\# (Advanced), N8N (Advanced), Make (Intermediate), C++ (Intermediate), C (Intermediate), JavaScript (Intermediate), SQL (Intermediate), R (Intermediate), HTML (Intermediate), CSS (Intermediate).}
         }
-        \item {
-            \textbf{Technologies}{: GIT, Latex, ChatGPT, VSCode, Google Colab, Unity, AWS.}
+        \item{
+            \textbf{Tools and Technologies}{: GIT, LaTeX, ChatGPT, VSCode, Google Colab, Unity, AWS, N8N, Make, Zoho CRM, Proxmox, Excel, Word, Acronis, Greenbone, Wazuh.}
         }
     \resumeSubHeadingListEnd
 
-
-%-------------------------------------------
 \end{document}

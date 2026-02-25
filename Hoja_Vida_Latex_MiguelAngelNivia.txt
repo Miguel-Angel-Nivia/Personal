@@ -21,7 +21,7 @@
 \input{glyphtounicode}
 
 \pagestyle{fancy}
-\fancyhf{} % Clear all header and footer fields
+\fancyhf{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
@@ -44,7 +44,6 @@
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-% Ensure that generate PDF is machine readable/ATS parsable
 \pdfgentounicode=1
 
 %-------------------------
@@ -55,7 +54,6 @@
   }
 }
 
-% Just in case someone needs a heading that does not need to be in a list
 \newcommand{\resumeHeading}[4]{
     \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
@@ -68,7 +66,7 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{3pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
@@ -93,60 +91,67 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{{\Large Miguel Angel Nivia Ortega}} & Email: \href{mailto:miguelangelnivia@gmail.com}{miguelangelnivia@gmail.co}\\
-  Estudiante de Ingeniería de Sistemas y Computación & Celular: {315-645-0801} \\ \href{https://www.linkedin.com/in/miguelangel-niviaortega}{LinkedIn}
+  \textbf{{\Large Miguel Angel Nivia Ortega}} & Email: \href{mailto:miguelangelnivia@gmail.com}{miguelangelnivia@gmail.com}\\
+  Estudiante de Ingeniería de Sistemas y Computación & Celular: {315-645-0801} \\
+  \href{https://www.linkedin.com/in/miguelangel-niviaortega}{LinkedIn} | \href{https://github.com/Miguel-Angel-Nivia}{GitHub}
 \end{tabular*}
 
 %-----------PROFILE-----------------
 \section{Perfil}
 \begin{justify}
-Hola, soy practicante de Ingeniería de Sistemas y computación. A lo largo de mi formación, he desarrollado valiosas habilidades en el desarrollo de proyectos y la resolución de problemas, centrándome en el trabajo en equipo, la comunicación efectiva y la colaboración, donde me adapto fácilmente a diferentes entornos de trabajo, manteniendo un enfoque profesional y proactivo. Además, he aprendido y aplicado diversos lenguajes de programación y herramientas tecnológicas que potencian mi capacidad de innovación. Disfruto programando y afrontando nuevos retos, implementando metodologías ágiles como Scrum, XP, entre otras para optimizar el desarrollo y la gestión de proyectos.
+Soy ingeniero de sistemas y computación con sólidas habilidades en desarrollo de proyectos y resolución de problemas. Mi formación se centra en el trabajo en equipo, comunicación efectiva y colaboración, adaptándome fácilmente a diferentes entornos de trabajo con un enfoque profesional y proactivo. He desarrollado competencias en diversos lenguajes de programación y herramientas tecnológicas que potencian mi capacidad de innovación. Disfruto programando y afrontando nuevos retos, implementando metodologías ágiles como Scrum y XP para optimizar el desarrollo y la gestión de proyectos.
 \end{justify}
-
-%-----------EDUCATION-----------------
-\section{Educación}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Mis Años Maravillosos}{Buga, Colombia}
-      {Escuela Primaria - Educación Basica; GPA: 4.8/5}{Sept 2010 -- Jun 2014 }
-    \resumeSubheading
-      {Liceo De Los Andes FUNED}{Buga, Colombia}
-      {Bachillerato - Educación Secundaria; GPA: 4.6/5}{Sept 2014 -- Jul 2020}
-    \resumeSubheading
-      {Pontificia Javeriana Cali}{Cali, Colombia}
-      {Pregrado de ingenieria de sistemas y computacion; GPA: 4.44/5}{Ene 2021 -- presente}
-  \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------------
 \section{Experiencia}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Casa Colombia}{Cali, Colombia}
-      {\textbf{Desarrollo Web}}{Ago 2024 -- Dic 2025}
-      
+      {\textbf{Desarrollo Web}}{Ago 2024 -- Dic 2024}
       {Desarrollo de un sistema web para las campañas preventivas de la fundación, permitiendo el registro de niños, gestión de lentes médicos y generación de reportes utilizando Excel, JavaScript y Node.js.}
+    \vspace{2pt}
+
     \resumeSubheading
       {Instituto de niños ciegos y sordos}{Cali, Colombia}
-      {\textbf{Tesis de Desarrollo de videojuego}}{Jun 2025 -- present}
-      
+      {\textbf{Tesis de Desarrollo de videojuego}}{Jun 2025 -- Sep 2025}
       {Desarrollo de un videojuego de realidad aumentada para niños de 6 a 9 años, diseñado para ayudar a los profesionales en la detección temprana de problemas de coordinación visomotora. Implementado en Unity 6 y programado en C\#.}
-  \resumeSubHeadingListEnd
-  
-%-----------ACADEMIC EXPERIENCE-----------------
-\section{Experiencia Academica}
-  \resumeSubHeadingListStart
-    \resumeSubItem{2024}
-      {Taller “Equipamiento del trabajo” sobre la capacitación para el abordaje de temas relacionados en la práctica y vida profesional.}
-    \resumeSubItem{2023 -- 2025}
-      {Énfasis de la carrera de ingeniería de sistemas y computación enfocada en el desarrollo de videojuegos, animación y audio.}
-    \resumeSubItem{2023 -- 2025}
-      {Complementaria de la carrera de ingeniería de sistemas y computación, enfocada en el manejo de bases de datos con herramientas como SQL, MySQL, MongoDB y PostgreSQL, en herramientas como AWS.}     
+
+    \resumeSubheading
+      {Práctica en S\&S IP/SNS}{Cali, Colombia}
+      {\textbf{Práctica Estudiantil}}{Ago 2025 -- Feb 2026}
+      {Desarrollo de mi práctica estudiantil en la empresa S\&S IP/SNS, donde efectué actividades en diversas áreas como IA, Ciberseguridad y Programación, ya sea en solitario o con un equipo.}
+
   \resumeSubHeadingListEnd
 
-%-----------ACHIEVEMENTS AND RECOGNITIONS-----------------
+%-----------EDUCATION-----------------
+\section{Educación}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Pontificia Javeriana Cali}{Cali, Colombia}
+      {Pregrado en Ingeniería de Sistemas y Computación; GPA: 4.5/5}{Ene 2021 -- Abr 2026}
+    \resumeSubheading
+      {Liceo De Los Andes FUNED}{Buga, Colombia}
+      {Bachillerato - Educación Secundaria; GPA: 4.6/5}{Sept 2014 -- Jul 2020}
+    \resumeSubheading
+      {Mis Años Maravillosos}{Buga, Colombia}
+      {Educación Primaria - Educación Básica; GPA: 4.8/5}{Sept 2010 -- Jun 2014}
+  \resumeSubHeadingListEnd
+
+%-----------ACADEMIC FORMATION-----------------
+\section{Formación Académica Complementaria}
+  \resumeSubHeadingListStart
+    \resumeSubItem{2023 -- 2025}
+      {Énfasis de la carrera enfocado en el desarrollo de videojuegos, animación y audio.}
+    \resumeSubItem{2023 -- 2025}
+      {Complementaria enfocada en el manejo de bases de datos con herramientas como SQL, MySQL, MongoDB y PostgreSQL, y en herramientas como AWS.}
+    \resumeSubItem{2024}
+      {Taller "Equipamiento del trabajo" sobre la capacitación para el abordaje de temas relacionados en la práctica y vida profesional.}
+  \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------------
 \section{Logros y Reconocimientos}
     \resumeSubHeadingListStart
-        \resumeSubItem{2021 -- presente}
+        \resumeSubItem{2021 -- 2026}
           {Ganador de la Beca Especial Magis.}
         \resumeSubItem{2023}
           {Ganador del concurso de logos de la Javeriana para ingeniería de sistemas y computación.}
@@ -158,23 +163,21 @@ Hola, soy practicante de Ingeniería de Sistemas y computación. A lo largo de m
 \section{Idiomas}
     \resumeSubHeadingListStart
         \resumeSubItem{Español}{Nativo}
-        \resumeSubItem{Ingles}{B2}
+        \resumeSubItem{Inglés}{B2}
     \resumeSubHeadingListEnd
 
 %--------SKILLS------------
 \section{Habilidades}
     \resumeSubHeadingListStart
-        \item {
-            \textbf{Personal}{: Colaboración, comunicación efectiva, liderazgo, trabajo en equipo, organización, persuasión, planificación y orden, compromiso y atención al detalle.}
+        \item{
+            \textbf{Personales}{: Colaboración, comunicación efectiva, liderazgo, trabajo en equipo, organización, persuasión, planificación y orden, compromiso y atención al detalle.}
         }
         \item{
-            \textbf{Lenguajes}{: Python(Avanzado), C\#(Avanzado), C++(Intermedio), C(Intermedio), JavaScript(Básico), SQL(Intermedio), R(Intermedio), HTML(Intermedio), CSS(Intermedio), Excel(Intermedio), Word(Intermedio).}
+            \textbf{Tecnicas}{: Python (Avanzado), C\# (Avanzado), N8N (Avanzado), Make (Intermedio), C++ (Intermedio), C (Intermedio), JavaScript (Intermedio), SQL (Intermedio), R (Intermedio), HTML (Intermedio), CSS (Intermedio).}
         }
-        \item {
-            \textbf{Tecnologías}{: GIT, Latex, ChatGPT, VSCode, Google Colab, Unity, AWS.}
+        \item{
+            \textbf{Herramientas y Tecnologías}{: GIT, LaTeX, ChatGPT, VSCode, Google Colab, Unity, AWS, N8N, Make, Zoho CRM, Proxmox, Excel, Word, Acronis, Greenbone, Wazuh.}
         }
     \resumeSubHeadingListEnd
 
-
-%-------------------------------------------
 \end{document}
